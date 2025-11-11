@@ -11,11 +11,11 @@
     "noUncheckedSideEffectImports": true
   },
   "include": [
-    "src/**/*.ts",
-    "src/**/*.js",
-    "src/**/*.svelte",
-    "tests/**/*.ts",
-    "tests/**/*.js",
+    "packages/**/src/**/*.ts",
+    "packages/**/src/**/*.js",
+    "packages/**/src/**/*.svelte",
+    "packages/**/tests/**/*.ts",
+    "packages/**/tests/**/*.js",
     "tests/**/*.svelte",
     "tailwind.config.js",
     "postcss.config.cjs",
