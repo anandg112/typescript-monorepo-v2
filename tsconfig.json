@@ -17,11 +17,6 @@
     "packages/**/tests/**/*.ts",
     "packages/**/tests/**/*.js",
     "tests/**/*.svelte",
-    "tailwind.config.js",
-    "postcss.config.cjs",
-    "vite.config.ts",
-    "svelte.config.js",
-    "eslint.config.mts"
   ],
   "exclude": ["**/assets/**/*", "node_modules", "dist"]
 }
