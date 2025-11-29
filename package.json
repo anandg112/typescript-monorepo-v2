@@ -1,16 +1,21 @@
 {
-    "name": "seeds",
-    "version": "0.0.1",
-    "private": true,
-    "scripts": {
-        "build": "pnpm --color run -r build",
-        "dev": "pnpm --color run -r dev",
-        "lint": "pnpm --color run -r lint",
-        "test": "pnpm --color run -r test",
-        "format": "pnpm --color run -r format",
-        "check": "pnpm --color run -r check"
-    },
-    "volta": {
+  "name": "seeds",
+  "version": "0.0.1",
+  "repository": "https://google.com",
+  "private": true,
+  "scripts": {
+    "build": "pnpm --color run -r build",
+    "dev": "pnpm --color run -r dev",
+    "lint": "pnpm --color run -r lint",
+    "test": "pnpm --color run -r test",
+    "format": "pnpm --color run -r format",
+    "check": "pnpm --color run -r check"
+  },
+  "volta": {
     "node": "22.16.0"
+  },
+  "devDependencies": {
+    "@manypkg/cli": "^0.25.1",
+    "syncpack": "14.0.0-alpha.28"
   }
 }
