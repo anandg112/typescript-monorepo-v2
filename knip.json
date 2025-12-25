@@ -5,5 +5,5 @@
             "project": "src/**/*.{ts,svelte}"
         }
     },
-    "ignoreDependencies": ["@manypkg/cli", "syncpack", "@vitest/coverage-v8", "@testing-library/svelte", "@tsconfig/svelte" ]
+    "ignoreDependencies": ["@manypkg/cli", "syncpack", "@vitest/coverage-v8", "@testing-library/svelte", "@tsconfig/svelte"]
 }

@@ -9,6 +9,7 @@ export default tseslint.config(
 	{
 		languageOptions: {
 			parserOptions: {
+				// enable type-aware linting rules
 				projectService: true,
 				tsconfigRootDir: process.cwd(),
 			},
