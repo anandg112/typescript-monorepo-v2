@@ -27,3 +27,8 @@ coverage
 **/tsconfig.build.json
 *.tsbuildinfo
 **/temp
+
+
+
+.nx/cache
+.nx/workspace-data
