@@ -8,6 +8,7 @@
     "build": "pnpm --color run -r build",
     "lint": "pnpm --color run -r lint",
     "test": "pnpm --color run -r test",
+    "test-changed": "lerna run test --since=origin/main",
     "format": "prettier --write packages/*/{src,tests}/**/*.ts packages/*/{tailwind.config.js,postcss.config.cjs,vite.config.ts,svelte.config.js}",
     "check": "pnpm --color run -r check"
   },
@@ -20,10 +21,12 @@
     "@types/node": "^24.0.0",
     "eslint": "^9.28.0",
     "knip": "^5.70.2",
+    "lerna": "^9.0.3",
     "prettier": "^3.5.3",
     "prettier-plugin-svelte": "^3.4.0",
     "syncpack": "14.0.0-alpha.29",
     "typescript": "~5.8.3",
     "typescript-eslint": "^8.34.0"
-  }
+  },
+  "dependencies": {}
 }
